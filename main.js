@@ -2,20 +2,20 @@
 
 // ******** Ejercicio 1 ********
 
-let a = 10;
+let a = 11;
 
-const ImprimeParoImpar = (UserNum) => {
-  if (UserNum % 2 === 0) {
-    console.log(`El Numero ${UserNum} es Par`);
-  } else {
-    console.log(`El Numero ${UserNum} es Impar`);
-  }
-};
+// const ImprimeParoImpar = (UserNum) => {
+//   if (UserNum % 2 === 0) {
+//     console.log(`El Numero ${UserNum} es Par`);
+//   } else {
+//     console.log(`El Numero ${UserNum} es Impar`);
+//   }
+// };
 
-const PedirNumeroUsuario = (callback) => {
-  let NumUsuario = prompt("Porfavor, Ingrese un Número.");
-  callback(NumUsuario);
-};
+// const PedirNumeroUsuario = (callback) => {
+//   let NumUsuario = prompt("Porfavor, Ingrese un Número.");
+//   callback(NumUsuario);
+// };
 
 // PedirNumeroUsuario(ImprimeParoImpar);
 
