@@ -13,7 +13,7 @@
 //   callback(NumUsuario);
 // };
 
-// IngresaNumero(ImprimeParoImpar);
+// PedirNumeroUsuario(ImprimeParoImpar);
 
 // ******** Ejercicio 2 ********
 
@@ -47,27 +47,31 @@
 //   }
 // };
 
-// const PedirNumeroUsuario2 = (callback) => {
+// const PedirNumUsuario = (callback) => {
 //   let NumUsuario = prompt("Porfavor, Ingrese un Número");
 //   callback(NumUsuario);
 // };
 
-// PedirNumeroUsuario2(ImprimeMultiplo5);
+// PedirNumUsuario(ImprimeMultiplo5);
 
 // ******** Ejercicio 4 ********
 
 // let NumUser = prompt("Porfavor, Ingrese un Número");
-// let i = 0;
-// do {
-//   console.log(i);
-//   i++;
-// } while (i <= NumUser);
+// function ImprimirNumeros(numero) {
+//   let i = 0;
+//   do {
+//     console.log(i);
+//     i++;
+//   } while (i <= numero);
+// }
+
+// ImprimirNumeros(NumUser);
 
 // ******** Ejercicio 5 ********
 
 // const ImprimePalabra = (text, num) => {
 //   for (let i = 0; i < num; i++) {
-//     console.log(`${num} - ${text}`);
+//     console.log(text);
 //   }
 // };
 
@@ -83,7 +87,7 @@
 
 // ******** Ejercicio 6 ********
 
-// let myArray = ["Mati", 38, "Soltero", "Córdoba", true, 642];
+// let myArray = ["Mati", 38, "Córdoba", "Argentina", true, 642];
 
 // const IterarArray = (Array) => {
 //   for (const elemento of Array) {
@@ -102,7 +106,7 @@
 //     if (i === 4) {
 //       continue;
 //     }
-//     console.log(Array[i]);
+//     console.log(`Posición ${i + 1} - ${Array[i]}`);
 //   }
 // };
 
