@@ -117,6 +117,8 @@ console.log(`******** Ejercicio 6 ********`);
 
 let myArray = ["Mati", 38, "Córdoba", "Argentina", true, 642];
 
+console.log(`Array = ${myArray}`);
+
 const IterarArray = (Array) => {
   for (const elemento of Array) {
     console.log(elemento);
@@ -131,6 +133,8 @@ alert(`Ejercicio 7: Iterar e Imprimir Array, excepto la 5ta posición`);
 console.log(`******** Ejercicio 7 ********`);
 
 let ArrayNumerico = [25, 32, 45, 78, 150, 2541, 0, 95, 654, 20];
+
+console.log(`Array = ${ArrayNumerico}`);
 
 const IterarArraySin5taPos = (Array) => {
   for (let i = 0; i < Array.length; i++) {
@@ -150,7 +154,7 @@ console.log(`******** Ejercicio 8 ********`);
 
 let ArrayNumeros = [214, 201, 21, 5, 36, 1800, 8500, 14, 53, 521, 2, 36, 0];
 
-console.log(ArrayNumeros);
+console.log(`Array = ${ArrayNumeros}`);
 
 const IteararYMultiplicar = (Array) => {
   let Multiplicador = prompt(
