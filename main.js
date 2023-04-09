@@ -2,8 +2,6 @@
 
 // ******** Ejercicio 1 ********
 
-let a = 11;
-
 // const ImprimeParoImpar = (UserNum) => {
 //   if (UserNum % 2 === 0) {
 //     console.log(`El Numero ${UserNum} es Par`);
