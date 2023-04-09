@@ -33,11 +33,11 @@ const CompararNumeros = (UserNum1, UserNum2) => {
   } else {
     if (UserNum1 > UserNum2) {
       console.log(
-        `el Número A ${UserNum1} es Mayor que el Número B ${UserNum2}`
+        `el Número A: ${UserNum1} es Mayor que el Número B: ${UserNum2}`
       );
     } else {
       console.log(
-        `el Número B ${UserNum2} es Mayor que el Número A ${UserNum1}`
+        `el Número B: ${UserNum2} es Mayor que el Número A: ${UserNum1}`
       );
     }
   }
