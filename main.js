@@ -60,9 +60,9 @@ console.log(`******** Ejercicio 3 ********`);
 
 const ImprimeMultiplo5 = (UserNum) => {
   if (UserNum % 5 === 0) {
-    console.log(`El Numero ${UserNum} ES Multiplo de 5`);
+    console.log(`El Numero ${UserNum}, Es Multiplo de 5? = SI`);
   } else {
-    console.log(`El Numero ${UserNum} NO ES Multiplo de 5`);
+    console.log(`El Numero ${UserNum}, Es Multiplo de 5? = NO`);
   }
 };
 
