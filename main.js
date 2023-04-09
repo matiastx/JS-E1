@@ -2,137 +2,165 @@
 
 // ******** Ejercicio 1 ********
 
-// const ImprimeParoImpar = (UserNum) => {
-//   if (UserNum % 2 === 0) {
-//     console.log(`El Numero ${UserNum} es Par`);
-//   } else {
-//     console.log(`El Numero ${UserNum} es Impar`);
-//   }
-// };
+alert(`Ejercicio 1: Par/Impar`);
+console.log(`******** Ejercicio 1 ********`);
 
-// const PedirNumeroUsuario = (callback) => {
-//   let NumUsuario = prompt("Porfavor, Ingrese un Número.");
-//   callback(NumUsuario);
-// };
+const ImprimeParoImpar = (UserNum) => {
+  if (UserNum % 2 === 0) {
+    console.log(`El Numero ${UserNum} es Par`);
+  } else {
+    console.log(`El Numero ${UserNum} es Impar`);
+  }
+};
 
-// PedirNumeroUsuario(ImprimeParoImpar);
+const PedirNumeroUsuario = (callback) => {
+  let NumUsuario = prompt("Porfavor, Ingrese un Número.");
+  callback(NumUsuario);
+};
+
+PedirNumeroUsuario(ImprimeParoImpar);
+
+console.log(`---------------------------`);
 
 // ******** Ejercicio 2 ********
 
-// const CompararNumeros = (UserNum1, UserNum2) => {
-//   if (UserNum1 === UserNum2) {
-//     console.log("Ambos números son Iguales");
-//   } else {
-//     if (UserNum1 > UserNum2) {
-//       console.log(`el Numero ${UserNum1} es Mayor que ${UserNum2}`);
-//     } else {
-//       console.log(`el Numero ${UserNum2} es Mayor que ${UserNum1}`);
-//     }
-//   }
-// };
+alert(`Ejercicio 2: Mayor/Menor/Igual`);
+console.log(`******** Ejercicio 2 ********`);
 
-// const PedirNumerosUsuario = (callback) => {
-//   let Num1 = prompt("Porfavor, Ingrese un Número");
-//   let Num2 = prompt("Porfavor, Ingrese otro Número");
-//   callback(Num1, Num2);
-// };
+const CompararNumeros = (UserNum1, UserNum2) => {
+  if (UserNum1 === UserNum2) {
+    console.log("Ambos números son Iguales");
+  } else {
+    if (UserNum1 > UserNum2) {
+      console.log(`el Numero ${UserNum1} es Mayor que ${UserNum2}`);
+    } else {
+      console.log(`el Numero ${UserNum2} es Mayor que ${UserNum1}`);
+    }
+  }
+};
 
-// PedirNumerosUsuario(CompararNumeros);
+const PedirNumerosUsuario = (callback) => {
+  let Num1 = prompt("Porfavor, Ingrese un Número");
+  let Num2 = prompt("Porfavor, Ingrese otro Número");
+  callback(Num1, Num2);
+};
+
+PedirNumerosUsuario(CompararNumeros);
+
+console.log(`---------------------------`);
 
 // ******** Ejercicio 3 ********
 
-// const ImprimeMultiplo5 = (UserNum) => {
-//   if (UserNum % 5 === 0) {
-//     console.log(`El Numero ${UserNum} ES Multiplo de 5`);
-//   } else {
-//     console.log(`El Numero ${UserNum} NO ES Multiplo de 5`);
-//   }
-// };
+alert(`Ejercicio 3: Multiplo de 5`);
+console.log(`******** Ejercicio 3 ********`);
 
-// const PedirNumUsuario = (callback) => {
-//   let NumUsuario = prompt("Porfavor, Ingrese un Número");
-//   callback(NumUsuario);
-// };
+const ImprimeMultiplo5 = (UserNum) => {
+  if (UserNum % 5 === 0) {
+    console.log(`El Numero ${UserNum} ES Multiplo de 5`);
+  } else {
+    console.log(`El Numero ${UserNum} NO ES Multiplo de 5`);
+  }
+};
 
-// PedirNumUsuario(ImprimeMultiplo5);
+const PedirNumUsuario = (callback) => {
+  let NumUsuario = prompt("Porfavor, Ingrese un Número");
+  callback(NumUsuario);
+};
+
+PedirNumUsuario(ImprimeMultiplo5);
 
 // ******** Ejercicio 4 ********
 
-// let NumUser = prompt("Porfavor, Ingrese un Número");
-// function ImprimirNumeros(numero) {
-//   let i = 0;
-//   do {
-//     console.log(i);
-//     i++;
-//   } while (i <= numero);
-// }
+alert(`Ejercicio 4: Imprimir hasta el número ingresado`);
+console.log(`******** Ejercicio 4 ********`);
 
-// ImprimirNumeros(NumUser);
+let NumUser = prompt("Porfavor, Ingrese un Número");
+function ImprimirNumeros(numero) {
+  let i = 0;
+  do {
+    console.log(i);
+    i++;
+  } while (i <= numero);
+}
+
+ImprimirNumeros(NumUser);
 
 // ******** Ejercicio 5 ********
 
-// const ImprimePalabra = (text, num) => {
-//   for (let i = 0; i < num; i++) {
-//     console.log(text);
-//   }
-// };
+alert(`Ejercicio 5: Imprimir Palabra "N" Veces`);
+console.log(`******** Ejercicio 5 ********`);
 
-// const IngresoUsuario = (callback) => {
-//   let PalabraUser = prompt("Porfavor, ingrese una Palabra");
-//   let NumUser = prompt(
-//     "Ingrese la cantidad de veces que quiere Repetir la Palabra"
-//   );
-//   callback(PalabraUser, NumUser);
-// };
+const ImprimePalabra = (text, num) => {
+  for (let i = 0; i < num; i++) {
+    console.log(text);
+  }
+};
 
-// IngresoUsuario(ImprimePalabra);
+const IngresoUsuario = (callback) => {
+  let PalabraUser = prompt("Porfavor, ingrese una Palabra");
+  let NumUser = prompt(
+    "Ingrese la cantidad de veces que quiere Repetir la Palabra"
+  );
+  callback(PalabraUser, NumUser);
+};
+
+IngresoUsuario(ImprimePalabra);
 
 // ******** Ejercicio 6 ********
 
-// let myArray = ["Mati", 38, "Córdoba", "Argentina", true, 642];
+alert(`Ejercicio 6: Iterar e Imprimir Array`);
+console.log(`******** Ejercicio 6 ********`);
 
-// const IterarArray = (Array) => {
-//   for (const elemento of Array) {
-//     console.log(elemento);
-//   }
-// };
+let myArray = ["Mati", 38, "Córdoba", "Argentina", true, 642];
 
-// IterarArray(myArray);
+const IterarArray = (Array) => {
+  for (const elemento of Array) {
+    console.log(elemento);
+  }
+};
+
+IterarArray(myArray);
 
 // ******** Ejercicio 7 ********
 
-// let ArrayNumerico = [25, 32, 45, 78, 150, 2541, 0, 95, 654, 20];
+alert(`Ejercicio 7: Iterar e Imprimir Array, excepto la 5ta posición`);
+console.log(`******** Ejercicio 7 ********`);
 
-// const IterarArraySin5taPos = (Array) => {
-//   for (let i = 0; i < Array.length; i++) {
-//     if (i === 4) {
-//       continue;
-//     }
-//     console.log(`Posición ${i + 1} - ${Array[i]}`);
-//   }
-// };
+let ArrayNumerico = [25, 32, 45, 78, 150, 2541, 0, 95, 654, 20];
 
-// IterarArraySin5taPos(ArrayNumerico);
+const IterarArraySin5taPos = (Array) => {
+  for (let i = 0; i < Array.length; i++) {
+    if (i === 4) {
+      continue;
+    }
+    console.log(`Posición ${i + 1} - ${Array[i]}`);
+  }
+};
+
+IterarArraySin5taPos(ArrayNumerico);
 
 // ******** Ejercicio 8 ********
 
-// let ArrayNumeros = [214, 201, 21, 5, 36, 1800, 8500, 14, 53, 521, 2, 36, 0];
+alert(`Ejercicio 8: Multiplica por "N" Numero cada item del Array`);
+console.log(`******** Ejercicio 8 ********`);
 
-// console.log(ArrayNumeros);
+let ArrayNumeros = [214, 201, 21, 5, 36, 1800, 8500, 14, 53, 521, 2, 36, 0];
 
-// const IteararYMultiplicar = (Array) => {
-//   let Multiplicador = prompt(
-//     "Porfavor, ingrese el Número por el que va a multiplicar cada elemento del Array"
-//   );
-//   for (const value of Array) {
-//     let Resultado = 0;
-//     Resultado = value * Multiplicador;
-//     console.log(
-//       `El Número ${value} Multiplicado por ${Multiplicador} es Igual a: ${Resultado}`
-//     );
-//   }
-// };
+console.log(ArrayNumeros);
 
-// IteararYMultiplicar(ArrayNumeros);
+const IteararYMultiplicar = (Array) => {
+  let Multiplicador = prompt(
+    "Porfavor, ingrese el Número por el que va a multiplicar cada elemento del Array"
+  );
+  for (const value of Array) {
+    let Resultado = 0;
+    Resultado = value * Multiplicador;
+    console.log(
+      `El Número ${value} Multiplicado por ${Multiplicador} es Igual a: ${Resultado}`
+    );
+  }
+};
+
+IteararYMultiplicar(ArrayNumeros);
 
 //--------- Fin E1 - JS ---------
