@@ -1,4 +1,8 @@
+//--------- Inicio E1 - JS ---------
+
 // ******** Ejercicio 1 ********
+
+let a = 10;
 
 const ImprimeParoImpar = (UserNum) => {
   if (UserNum % 2 === 0) {
@@ -13,7 +17,7 @@ const PedirNumeroUsuario = (callback) => {
   callback(NumUsuario);
 };
 
-PedirNumeroUsuario(ImprimeParoImpar);
+// PedirNumeroUsuario(ImprimeParoImpar);
 
 // ******** Ejercicio 2 ********
 
@@ -132,3 +136,5 @@ PedirNumeroUsuario(ImprimeParoImpar);
 // };
 
 // IteararYMultiplicar(ArrayNumeros);
+
+//--------- Fin E1 - JS ---------
