@@ -29,19 +29,23 @@ console.log(`******** Ejercicio 2 ********`);
 
 const CompararNumeros = (UserNum1, UserNum2) => {
   if (UserNum1 === UserNum2) {
-    console.log("Ambos números son Iguales");
+    console.log("el Número A y el Número B son Iguales");
   } else {
     if (UserNum1 > UserNum2) {
-      console.log(`el Numero ${UserNum1} es Mayor que ${UserNum2}`);
+      console.log(
+        `el Número A ${UserNum1} es Mayor que el Número B ${UserNum2}`
+      );
     } else {
-      console.log(`el Numero ${UserNum2} es Mayor que ${UserNum1}`);
+      console.log(
+        `el Número B ${UserNum2} es Mayor que el Número A ${UserNum1}`
+      );
     }
   }
 };
 
 const PedirNumerosUsuario = (callback) => {
-  let Num1 = prompt("Porfavor, Ingrese un Número");
-  let Num2 = prompt("Porfavor, Ingrese otro Número");
+  let Num1 = prompt("Porfavor, Ingrese un Número A:");
+  let Num2 = prompt("Porfavor, Ingrese un Número B:");
   callback(Num1, Num2);
 };
 
