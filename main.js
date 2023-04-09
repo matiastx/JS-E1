@@ -60,9 +60,9 @@ console.log(`******** Ejercicio 3 ********`);
 
 const ImprimeMultiplo5 = (UserNum) => {
   if (UserNum % 5 === 0) {
-    console.log(`El Numero ${UserNum}, Es Multiplo de 5? = SI`);
+    console.log(`El Número ${UserNum}, Es Multiplo de 5? = SI`);
   } else {
-    console.log(`El Numero ${UserNum}, Es Multiplo de 5? = NO`);
+    console.log(`El Número ${UserNum}, Es Multiplo de 5? = NO`);
   }
 };
 
@@ -166,5 +166,7 @@ const IteararYMultiplicar = (Array) => {
 };
 
 IteararYMultiplicar(ArrayNumeros);
+
+console.log(`************ Fin ************`);
 
 //--------- Fin E1 - JS ---------
