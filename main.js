@@ -1,19 +1,19 @@
 // ******** Ejercicio 1 ********
 
-// const ImprimeParoImpar = (UserNum) => {
-//   if (UserNum % 2 === 0) {
-//     console.log(`El Numero ${UserNum} es Par`);
-//   } else {
-//     console.log(`El Numero ${UserNum} es Impar`);
-//   }
-// };
+const ImprimeParoImpar = (UserNum) => {
+  if (UserNum % 2 === 0) {
+    console.log(`El Numero ${UserNum} es Par`);
+  } else {
+    console.log(`El Numero ${UserNum} es Impar`);
+  }
+};
 
-// const PedirNumeroUsuario = (callback) => {
-//   let NumUsuario = prompt("Porfavor, Ingrese un Número.");
-//   callback(NumUsuario);
-// };
+const PedirNumeroUsuario = (callback) => {
+  let NumUsuario = prompt("Porfavor, Ingrese un Número.");
+  callback(NumUsuario);
+};
 
-// PedirNumeroUsuario(ImprimeParoImpar);
+PedirNumeroUsuario(ImprimeParoImpar);
 
 // ******** Ejercicio 2 ********
 
@@ -114,21 +114,21 @@
 
 // ******** Ejercicio 8 ********
 
-let ArrayNumeros = [214, 201, 21, 5, 36, 1800, 8500, 14, 53, 521, 2, 36, 0];
+// let ArrayNumeros = [214, 201, 21, 5, 36, 1800, 8500, 14, 53, 521, 2, 36, 0];
 
-console.log(ArrayNumeros);
+// console.log(ArrayNumeros);
 
-const IteararYMultiplicar = (Array) => {
-  let Multiplicador = prompt(
-    "Porfavor, ingrese el Número por el que va a multiplicar cada elemento del Array"
-  );
-  for (const value of Array) {
-    let Resultado = 0;
-    Resultado = value * Multiplicador;
-    console.log(
-      `El Número ${value} Multiplicado por ${Multiplicador} es Igual a: ${Resultado}`
-    );
-  }
-};
+// const IteararYMultiplicar = (Array) => {
+//   let Multiplicador = prompt(
+//     "Porfavor, ingrese el Número por el que va a multiplicar cada elemento del Array"
+//   );
+//   for (const value of Array) {
+//     let Resultado = 0;
+//     Resultado = value * Multiplicador;
+//     console.log(
+//       `El Número ${value} Multiplicado por ${Multiplicador} es Igual a: ${Resultado}`
+//     );
+//   }
+// };
 
-IteararYMultiplicar(ArrayNumeros);
+// IteararYMultiplicar(ArrayNumeros);
